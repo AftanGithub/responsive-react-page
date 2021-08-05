@@ -1,0 +1,29 @@
+.para{
+  width: 19rem;
+  padding:1rem;
+  text-align: left;
+  line-height: 1.8rem;
+  color: #333333;
+  font-weight: 300;
+  font-family: 'Poppins', sans-serif;
+  letter-spacing: 0.8px;
+  float: right;
+  display: flex;
+  flex-direction: column;
+
+}
+
+hr{
+  border: none;
+  background: rgb(243, 25, 69);
+  height: 4px;
+  width: 70px;
+  margin-top: 2rem;
+  margin-left: 0rem;
+}
+
+@media screen and (max-width: 600px){
+  .para{
+    margin-left:-2%;
+  }
+}

@@ -1,0 +1,75 @@
+.row{
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 3rem;
+}
+
+.main{
+  padding-left: 4rem;
+  padding-top:6%;
+  width: fit-content;
+  display: flex;
+  flex-wrap: wrap; 
+}
+
+.header{
+  display: flex;
+  flex-wrap: wrap;
+  width: fit-content;
+  justify-content: space-between;
+  }
+
+  
+
+ 
+
+.heading{
+  width: 42rem;
+}
+
+.heading h1{
+  font-family: 'Abhaya Libre', serif;
+  font-size: 4rem;
+  max-width: fit-content;
+  text-align: left;
+  float: left;
+
+}
+
+.nav{
+  width: 20%;
+}
+
+
+@media screen and (max-width: 600px) {
+  .row{
+    display: flex;
+    flex-direction: column;
+  }
+  .nav{
+    width:100%;
+  }
+  .main{
+    padding-top: 0%;
+    padding-left:8%;
+    margin-top: 0%;
+    
+    
+  }
+
+  .header > div{
+    flex: 1 1 50;
+  }
+  #bottom{
+    order:1
+  }
+  #top{
+    order:2;
+  }
+
+  .heading h1{
+    font-size:2rem;
+  }
+}
+
+

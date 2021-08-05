@@ -1,0 +1,30 @@
+.card{
+  width:10rem;
+  height: 12rem;
+  padding: 1.5rem;
+  box-shadow: 2px 20px 50px rgb(184, 184, 184);
+  margin: 1.5rem;
+  border-radius: 1.6rem;
+}
+
+.card img{
+  border-radius: 8rem;
+  width: 8rem;
+  height: 8rem;
+  background-clip: padding-box;
+  background-size: cover;
+  background-position: center center;
+}
+
+@media screen and (max-width: 600px){
+  .card{
+    width:5rem;
+    height: 6rem;
+  }
+
+  .card img{
+    width: 3rem;
+    height:3rem;
+  }
+  
+}
